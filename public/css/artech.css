@@ -1,0 +1,179 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Gilroy", sans-serif;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("/fonts/Gilroy-Light.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("/fonts/Gilroy-ExtraBold.otf") format("opentype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+* {
+  font-family: "Gilroy", Arial, Helvetica, sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  margin: 0;
+}
+
+header {
+  z-index: 100;
+  position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 1rem 0 0 1rem;
+}
+
+header img {
+  height: 2rem;
+  margin-right: 1rem;
+}
+
+header div {
+  font-weight: bold;
+  color: white;
+}
+
+#copytext {
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 128px;
+  z-index: 10;
+}
+
+#viewer {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+}
+
+#btn-container {
+  background-color: white;
+  border: 1px solid black;
+  padding: 1rem;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+#overlay {
+  display: none;
+  width: 100%;
+  height: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: rgba(0, 0, 0, 0.75);
+  position: fixed;
+  z-index: 100;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#overlay-control {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: fixed;
+  z-index: 100;
+}
+
+#overlay-control button {
+  border: none;
+  color: white;
+  width: 10rem;
+  padding: 0.5rem 0;
+}
+
+#overlay-control #overlay-close {
+  background-color: crimson;
+}
+
+#overlay-control #overlay-desc-toggle {
+  background-color: teal;
+}
+
+#overlay-content {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#art-container {
+  position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+.art-img {
+  max-width: 90vw;
+  max-height: 90vmin;
+  margin: 0 1rem;
+  border: 1px solid black;
+}
+
+#desc-container {
+  position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.75);
+  z-index: 20;
+  padding-bottom: 3rem;
+}
+
+.desc-img {
+  max-width: 90vw;
+  max-height: 50vh;
+  margin: 0 1rem;
+  border: 1px solid black;
+}
+/*# sourceMappingURL=artech.css.map */

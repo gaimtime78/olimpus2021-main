@@ -1,0 +1,195 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Gilroy", sans-serif;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("/fonts/Gilroy-Light.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("/fonts/Gilroy-ExtraBold.otf") format("opentype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+#wrapper {
+  width: 100%;
+  min-height: 100%;
+  padding: 0 1rem;
+  background-image: url("/img/bg-2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#wrapper header {
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 1rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#wrapper header img {
+  margin-right: 0.5rem;
+}
+
+#wrapper main {
+  width: 100%;
+  background-color: black;
+  color: white;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+#wrapper footer {
+  color: white;
+  font-size: 1rem;
+  padding: 1rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main {
+  background-color: black;
+  color: white;
+}
+
+main #content {
+  width: 100%;
+}
+
+main #content #video iframe {
+  width: 100%;
+  height: 480px;
+}
+
+main #content #rundown {
+  padding: 0 1rem 1rem;
+}
+
+main #content #rundown table tr td:first-child {
+  font-weight: bold;
+  padding-right: 2rem;
+}
+
+main #content #comingsoon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 480px;
+}
+
+main #chats {
+  width: 100%;
+}
+
+main #chats #write {
+  width: 100%;
+  padding: 0 1rem 1rem;
+}
+
+main #chats #write form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main #chats #write form input,
+main #chats #write form textarea {
+  margin-top: 1rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  color: white;
+  background-color: black;
+  border: 1px solid white;
+}
+
+main #chats #read {
+  padding: 1rem;
+  width: 100%;
+  overflow: auto;
+}
+
+main #chats #read #chatbox {
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  color: white;
+  background-color: black;
+  border: 1px solid white;
+  width: 100%;
+  height: 320px;
+  overflow: auto;
+}
+
+@media only screen and (min-width: 768px) {
+  main #content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  main #content #video {
+    width: 70%;
+  }
+  main #content #video iframe {
+    width: 100%;
+    height: 480px;
+  }
+  main #content #rundown {
+    width: 30%;
+    height: 512px;
+    overflow: auto;
+  }
+  main #chats {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  main #chats #write {
+    width: 30%;
+  }
+  main #chats #read {
+    width: 70%;
+  }
+}
+/*# sourceMappingURL=opening.css.map */

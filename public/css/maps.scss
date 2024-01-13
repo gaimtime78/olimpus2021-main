@@ -1,0 +1,203 @@
+* {
+    box-sizing: border-box;
+    font-family: "Gilroy", sans-serif;
+}
+@font-face {
+    font-family: "Gilroy";
+    src: url("/fonts/Gilroy-Light.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Gilroy";
+    src: url("/fonts/Gilroy-ExtraBold.otf") format("opentype");
+    font-weight: bold;
+    font-style: normal;
+}
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+#wrapper {
+    width: 100%;
+    min-height: 100%;
+    padding: 0 1rem;
+    background-image: url("/img/bg-2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    header {
+        color: white;
+        font-size: 2rem;
+        font-weight: bold;
+        padding: 1rem 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        img {
+            margin-right: 0.5rem;
+        }
+    }
+
+    footer {
+        color: white;
+        font-size: 1rem;
+        padding: 1rem 0;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+#maps-container {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 1rem;
+    img {
+        width: 100%;
+        display: relative;
+        border-radius: 1rem;
+    }
+}
+
+#btn-container {
+    display: none;
+}
+#lomba-btn {
+    right: 5vw;
+}
+
+#artech-btn {
+    left: 10vw;
+}
+
+#opening-btn {
+    right: 10vw;
+}
+
+#mobile-btn-container {
+    .mobile-btn {
+        margin: 1rem 0 0 0;
+        width: 100%;
+        border-radius: 1rem;
+        background-color: black;
+        color: white;
+        padding: 1rem;
+        display: flex;
+        align-items: center;
+        .mobile-btn-maps-img {
+            width: 30%;
+            background-color: black;
+            margin-right: 1rem;
+            display: block;
+            border-radius: 1rem;
+            overflow: hidden;
+            img {
+                width: 100%;
+                height: 100%;
+                border-radius: 1rem;
+            }
+        }
+        .mobile-btn-text-container {
+            width: 70%;
+            text-align: center;
+        }
+        .mobile-btn-title {
+            font-weight: bold;
+            font-size: 1.8rem;
+            margin-bottom: 1rem;
+        }
+        .mobile-btn-control {
+            width: 100%;
+            display: flex;
+            .mobile-btn-maps {
+                width: 100%;
+                padding: 0.25rem;
+                border-radius: 1rem;
+                border: none;
+                background-color: crimson;
+                color: white;
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    #wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+    }
+    #mobile-btn-container {
+        display: none;
+    }
+    #btn-container {
+        position: fixed;
+        z-index: 10;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        .btn-maps {
+            padding: 0.5rem;
+            border-radius: 1rem;
+            border: none;
+            background-color: rgb(0, 0, 0);
+            color: white;
+            position: relative;
+            font-size: 1.25vw;
+            top: 9vw;
+            margin-top: 3vw;
+            text-decoration: none;
+            &:hover {
+                background-color: crimson;
+                color: white;
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+#overlay {
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.75);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0;
+    .window {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+        background-color: black;
+        border-radius: 1rem;
+        .tagline {
+            font-style: italic;
+        }
+        img {
+            width: 128px;
+        }
+        #explore {
+            margin-top: 1rem;
+            width: 100%;
+            padding: 0.25rem;
+            border-radius: 1rem;
+            border: none;
+            background-color: crimson;
+            color: white;
+            text-decoration: none;
+        }
+    }
+}

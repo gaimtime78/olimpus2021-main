@@ -1,0 +1,42 @@
+* {
+	box-sizing: border-box;
+	font-family: "Gilroy", sans-serif;
+}
+@font-face {
+	font-family: "Gilroy";
+	src: url("/fonts/Gilroy-Light.otf") format("opentype");
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Gilroy";
+	src: url("/fonts/Gilroy-ExtraBold.otf") format("opentype");
+	font-weight: bold;
+	font-style: normal;
+}
+
+.bgcomingsoon {
+	background-image: url("/img/bg-grid.jpg");
+	background-repeat: repeat;
+	animation: animbgcomingsoon 2s linear infinite;
+}
+
+.blink {
+	animation: animblink 2s step-start 0s infinite;
+}
+
+
+@keyframes animbgcomingsoon {
+	100% {
+		background-position-y: 64px;
+	}
+}
+
+@keyframes animblink {
+	50% {
+		color: rgba(255, 255, 255, 0);
+	}
+	100% {
+		color: rgba(255, 255, 255, 1);
+	}
+}

@@ -1,0 +1,25 @@
+{
+	"keilmiahan":{
+		"lkti":{
+			"form": {
+				"email": "required",
+				"fakultas": "required",
+				"no_wa_ketua": "required",
+				"nama_ketua": "required",
+				"nim_jurusan_ketua": "required",
+				"nama_anggota_1": "",
+				"nim_jurusan_anggota_1": "",
+				"nama_anggota_2": "",
+				"nim_jurusan_anggota_2": "",
+				"nama_pembimbing": "required"
+			},
+			
+			"contact": {
+				"nama": "Dimas",
+				"whatsapp": "085867494951",
+			},
+			"pamflet": "http://google.com",
+			"guidebook": "http://google.com",
+		}
+	}
+}

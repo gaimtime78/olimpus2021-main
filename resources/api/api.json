@@ -1,0 +1,34 @@
+{
+	"contact" : {
+		"email" : "olimpiadeuns@gmail.com",
+		"instagram" : "https://instagram.com/olimpus.uns",
+		"youtube" : "https://www.youtube.com/channel/UCqbezVKTKmR9WKCZeIRI6nA"
+	},
+	"video": [
+	    {
+			"title" : "Introducing Olimpiade Mahasiswa UNS",
+			"description" : "The wait is over! Olimpiade Mahasiswa UNS mempersembahkan -Introducing Olimpus- , disiarkan langsung eksklusif di Youtube Universitas Sebelas Maret dan Instagram @olimpus.uns.",
+			"link" : "https://www.youtube.com/embed/tehfxyx0iyA"
+		},
+		{
+			"title" : "Alinea",
+			"description" : "Beberapa abad sebelumnya, masyarakat masih percaya adanya mitos. Mereka menganggap bahwa sains adalah hal yang konyol. Namun waktu terus berjalan, ilmuwan datang diberbagai bidangnya untuk membantu kehidupan manusia. Kini Olimpus hadir dengan empat bidang yang siap membawa perubahan bagi kita semua. Prepare yourself and show your ability to world!",
+			"link" : "https://www.youtube.com/embed/o-rlQw6D_w0"
+		},
+		{
+			"title" : "Coming Soon Olimpus",
+			"description" : "The wait is over, Olimpus is back with a new concept! Jangan sedih karena kita akan segera hadir dalam pencarian minat dan bakat para mahasiswa UNS. Penasaran bakal ada apa aja di Olimpus? Stay tune di Instagram dan Website kita.",
+			"link" : "https://www.youtube.com/embed/CEuzKIWxRi0"
+		},
+		{
+			"title" : "Dari UNS Untuk Indonesia",
+			"description" : "Wabah yang sedang terjadi sekarang, tak menjadi penghalang bagi kami para pemuda tuk tetap berkarya. Semoga lekas sembuh Bumi Pertiwi tercinta, teruntukmu Dirgahayu Indonesiaku. Dari UNS untuk Indonesia.",
+			"link" : "https://www.youtube.com/embed/_4DyZ_s6SKk"
+		},
+		{
+			"title" : "Olimpus 2019 Throwback",
+			"description" : "Ingin melihat keseruan Olimpus 2019? Tonton dan jangan sampai kelewatan cuplikan video berikut!",
+			"link" : "https://www.youtube.com/embed/JrXpUEZR3cQ"
+		}
+	]
+}
